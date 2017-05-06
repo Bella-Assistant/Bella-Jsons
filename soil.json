@@ -24,7 +24,6 @@
     "Mizoram": ["Red"],
     "Meghalaya": ["Red"],
     "Alluvial": {
-
         "crop": {
             "type": [{
                     "name": "kharif",
@@ -64,24 +63,14 @@
                     "seasons": ["Complete Year", " "],
                     "crops": ["Cotton", " "]
                 }
-               
-            ]
+           ]
         }
     },
 
-    "Laterite": {
-        "crop": {
-             {
-            "type": [{
+    "Laterite":{
+        "crop":{"type": [{
                     "name": "kharif",
                     "seasons": ["July", "October"],
                     "crops": ["Ragi", "Rice"]
-                }
-            ]
-        }
-          
-
-        }
-    }
-}
+                }            ]        }       }   }
 
