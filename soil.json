@@ -41,19 +41,20 @@
     },
 
     "Red": {
-        "crops": [{
-                "name": "Kharif",
-                "seasons": ["July", "October"],
-                "crops": ["Cotton", "Pulses", "Oilseeds"]
-            },
-            {
-                "name": "rabi",
-                "seasons": ["October", "March"],
-                "crops": ["Wheat", "Mustard", "Gram"]
-            }
-        ]
+        "crops": {
+            "type": [{
+                    "name": "Kharif",
+                    "seasons": ["July", "October"],
+                    "crops": ["Cotton", "Pulses", "Oilseeds"]
+                },
+                {
+                    "name": "rabi",
+                    "seasons": ["October", "March"],
+                    "crops": ["Wheat", "Mustard", "Gram"]
+                }
+            ]
+        }
     },
-
 
     "Black": {
 
