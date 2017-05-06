@@ -25,7 +25,7 @@
     "Meghalaya": ["Red"],
     "Alluvial": {
 
-        "crops": {
+        "crop": {
             "type": [{
                     "name": "kharif",
                     "seasons": ["July", "October"],
@@ -41,7 +41,7 @@
     },
 
     "Red": {
-        "crops": {
+        "crop": {
             "type": [{
                     "name": "Kharif",
                     "seasons": ["July", "October"],
@@ -58,13 +58,13 @@
 
     "Black": {
 
-        "crops": "Cotton"
+        "crop": "Cotton"
     },
 
     "Laterite": {
-        "crops": {
+        "crop": {
             "name": "kharif",
-            "crops": ["Ragi", "Rice"],
+            "crops": ["Ragi", "Rice"]
 
         }
     }
