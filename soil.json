@@ -58,10 +58,10 @@
 
     "Black": {
 
-        {
+        "crop":{
             "type": [{
-                    "name": "",
-                    "seasons": [""],
+                    "name": " ",
+                    "seasons": ["Complete Year", " "],
                     "crops": ["Cotton", " "]
                 }
                
