@@ -1,4 +1,30 @@
 {
+    "types": ["Alluvial", "Red", "Black", "Laterite"],
+    "states": {
+        "Kerala": ["Red", "Alluvial"],
+        "Karnataka": ["Black", "Red", "Laterite"],
+        "Tamil Nadu": ["Black", "Red", "Alluvial"],
+        "Andhra Pradesh": ["Black", "Red", "Alluvial"],
+        "Telangana": ["Black", "Red"],
+        "Maharastra": ["Red", "Black", "Laterite"],
+        "Chhattisgarh": ["Red"],
+        "Orissa": ["Red", "Alluvial"],
+        "Jharkhand": ["Black", "Red"],
+        "Madhya Pradesh": ["Red", "Black"],
+        "Gujarat": ["Alluvial", "Black"],
+        "West Bengal": ["Alluvial", "Red"],
+        "Rajasthan": ["Alluvial", "Red"],
+        "Uttar Pradesh": ["Alluvial"],
+        "Punjab": ["Alluvial"],
+        "Haryana": ["Alluvial"],
+        "Bihar": ["Alluvial"],
+        "Delhi": ["Alluvial"],
+        "Assam": ["Alluvial"],
+        "Nagaland": ["Red"],
+        "Manipur": ["Red"],
+        "Mizoram": ["Red"],
+        "Meghalaya": ["Red"]
+    },
     "Alluvial": {
         "states": ["Gujarat", "Rajasthan", "Punjab", "Haryana", "Delhi", "Uttar Pradesh",
             "Bihar", "West Bengal", "Assam"
