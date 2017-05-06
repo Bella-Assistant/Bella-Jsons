@@ -1,3 +1,5 @@
+// Reference: clearIAS.com
+
 {
     "types": ["Alluvial", "Red", "Black", "Laterite"],
     "states": {
@@ -29,7 +31,7 @@
         "states": ["Gujarat", "Rajasthan", "Punjab", "Haryana", "Delhi", "Uttar Pradesh",
             "Bihar", "West Bengal", "Assam"
         ],
-        "costal cover": ["Andhra Pradesh", "Tamil Nadu", "Orissa"],
+        "coastal cover": ["Andhra Pradesh", "Tamil Nadu", "Orissa"],
         "crops": {
             "kharif": {
                 "seasons": ["July", "October"],
@@ -65,7 +67,7 @@
 
     "Laterite": {
         "states": {
-            "costal": ["Karnataka", "Maharastra"],
+            "coastal": ["Karnataka", "Maharastra"],
             "land-locked": ["Orissa", "Meghalaya"]
         },
         "crops": {
