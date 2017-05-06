@@ -58,14 +58,30 @@
 
     "Black": {
 
-        "crop": "Cotton"
+        {
+            "type": [{
+                    "name": "",
+                    "seasons": [""],
+                    "crops": ["Cotton", " "]
+                }
+               
+            ]
+        }
     },
 
     "Laterite": {
         "crop": {
-            "name": "kharif",
-            "crops": ["Ragi", "Rice"]
+             {
+            "type": [{
+                    "name": "kharif",
+                    "seasons": ["July", "October"],
+                    "crops": ["Ragi", "Rice"]
+                }
+            ]
+        }
+          
 
         }
     }
 }
+
