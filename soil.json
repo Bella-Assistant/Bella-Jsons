@@ -1,78 +1,74 @@
-// Reference: clearIAS.com
+// References: ClearIAS.com
+
+
 
 {
     "types": ["Alluvial", "Red", "Black", "Laterite"],
-    "states": {
-        "Kerala": ["Red", "Alluvial"],
-        "Karnataka": ["Black", "Red", "Laterite"],
-        "Tamil Nadu": ["Black", "Red", "Alluvial"],
-        "Andhra Pradesh": ["Black", "Red", "Alluvial"],
-        "Telangana": ["Black", "Red"],
-        "Maharastra": ["Red", "Black", "Laterite"],
-        "Chhattisgarh": ["Red"],
-        "Orissa": ["Red", "Alluvial"],
-        "Jharkhand": ["Black", "Red"],
-        "Madhya Pradesh": ["Red", "Black"],
-        "Gujarat": ["Alluvial", "Black"],
-        "West Bengal": ["Alluvial", "Red"],
-        "Rajasthan": ["Alluvial", "Red"],
-        "Uttar Pradesh": ["Alluvial"],
-        "Punjab": ["Alluvial"],
-        "Haryana": ["Alluvial"],
-        "Bihar": ["Alluvial"],
-        "Delhi": ["Alluvial"],
-        "Assam": ["Alluvial"],
-        "Nagaland": ["Red"],
-        "Manipur": ["Red"],
-        "Mizoram": ["Red"],
-        "Meghalaya": ["Red"]
-    },
+    "Kerala": ["Red", "Alluvial"],
+    "Karnataka": ["Black", "Red", "Laterite"],
+    "Tamil Nadu": ["Black", "Red", "Alluvial"],
+    "Andhra Pradesh": ["Black", "Red", "Alluvial"],
+    "Telangana": ["Black", "Red"],
+    "Maharastra": ["Red", "Black", "Laterite"],
+    "Chhattisgarh": ["Red"],
+    "Orissa": ["Red", "Alluvial"],
+    "Jharkhand": ["Black", "Red"],
+    "Madhya Pradesh": ["Red", "Black"],
+    "Gujarat": ["Alluvial", "Black"],
+    "West Bengal": ["Alluvial", "Red"],
+    "Rajasthan": ["Alluvial", "Red"],
+    "Uttar Pradesh": ["Alluvial"],
+    "Punjab": ["Alluvial"],
+    "Haryana": ["Alluvial"],
+    "Bihar": ["Alluvial"],
+    "Delhi": ["Alluvial"],
+    "Assam": ["Alluvial"],
+    "Nagaland": ["Red"],
+    "Manipur": ["Red"],
+    "Mizoram": ["Red"],
+    "Meghalaya": ["Red"],
     "Alluvial": {
-        "states": ["Gujarat", "Rajasthan", "Punjab", "Haryana", "Delhi", "Uttar Pradesh",
-            "Bihar", "West Bengal", "Assam"
-        ],
-        "coastal cover": ["Andhra Pradesh", "Tamil Nadu", "Orissa"],
-        "crops": {
-            "kharif": {
-                "seasons": ["July", "October"],
-                "crops": ["Rice", "Maize", "Sugarcane", "Groundnuts"]
-            },
-            "rabi": {
-                "seasons": ["October", "March"],
-                "crops": ["Wheat", "Mustard"]
-            }
-        },
-    },
 
-    "Red": {
-        "states": ["Karnataka", "Kerala", "Andhra Pradesh", "Telangana", "Orissa", "Chhattisgarh",
-            "Jharkhand", "Manipur", "Nagaland", "Mizoram", "Meghalaya"
-        ],
         "crops": {
-            "kharif": {
-                "seasons": ["July", "October"],
-                "crops": ["Cotton", "Pulses", "Oilseeds"]
-            },
-            "rabi": {
-                "seasons": ["October", "March"],
-                "crops": ["Wheat", "Mustard", "Gram"]
-            }
+            "type": [{
+                    "name": "kharif",
+                    "seasons": ["July", "October"],
+                    "crops": ["Rice", "Maize", "Sugarcane", "Groundnuts"]
+                },
+                {
+                    "name": "Rabi",
+                    "seasons": ["October", "March"],
+                    "crops": ["Wheat", "Mustard"]
+                }
+            ]
         }
     },
 
+    "Red": {
+        "crops": [{
+                "name": "Kharif",
+                "seasons": ["July", "October"],
+                "crops": ["Cotton", "Pulses", "Oilseeds"]
+            },
+            {
+                "name": "rabi",
+                "seasons": ["October", "March"],
+                "crops": ["Wheat", "Mustard", "Gram"]
+            }
+        ]
+    },
+
+
     "Black": {
-        "states": ["Gujurat", "Rajasthan", "Madhya Pradesh", "Maharastra", "Andhra Pradesh", "Telangana"],
+
         "crops": "Cotton"
     },
 
     "Laterite": {
-        "states": {
-            "coastal": ["Karnataka", "Maharastra"],
-            "land-locked": ["Orissa", "Meghalaya"]
-        },
         "crops": {
-            "kharif": ["Ragi", "Rice"],
-            "cash crops": ["Sugarcane", "Cashew"]
+            "name": "kharif",
+            "crops": ["Ragi", "Rice"],
+
         }
     }
 }
