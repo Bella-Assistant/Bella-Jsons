@@ -44,12 +44,12 @@
             "type": [{
                     "name": "Kharif",
                     "seasons": ["July", "October"],
-                    "crops": ["Cotton", "Pulses", "Oilseeds"]
+                    "crops": ["Pulses","Cotton",  "Oilseeds"]
                 },
                 {
                     "name": "rabi",
                     "seasons": ["October", "March"],
-                    "crops": ["Wheat", "Mustard", "Gram"]
+                    "crops": ["Mustard", "Wheat",  "Gram"]
                 }
             ]
         }
